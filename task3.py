@@ -17,8 +17,20 @@ def split(input):
     return
     str new string with line break in the middle
     '''
+    half = len(input)/2
+    if input[int(half)] != " " :
+        print(input[int(half)])
+        
+        input = input[:int(half)] + "-" + input[int(half):]
 
-    return
+
+        input = input[:int(half)] + "\n" + input[int(half):]
+        return input
+    
+print(split("There is a big balloon in the blue sky"))
+
+
+#Cant get assert to work i dont know why the program splits the string in half and checks if the target is empty or not then will add a hyphen if needed 
 
 if __name__ == "__main__":
     sentence = "There is a big balloon in the blue sky"

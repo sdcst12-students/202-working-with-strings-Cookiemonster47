@@ -11,12 +11,13 @@ def replaceDog(input):
     '''
     parameters:
     str input - string to search and replace occurrences of dog with kitty
-
+    
     return
     str - the modified string
     '''
     modifiedString = input
-
+    if "dog" in input :
+        modifiedString = modifiedString.replace("dog","kitty")
     return modifiedString
 
 

@@ -11,4 +11,4 @@ Note however, that when we import the file, it runs any commands that are in the
 It is a good idea to start structuring all of your code this way, as you never know when you will want to import your code into other files.  This is also how external file assertions and tests can be done to mark your assignments.
 '''
 import ext1
-ext1.f1()
+ext1.f2()
